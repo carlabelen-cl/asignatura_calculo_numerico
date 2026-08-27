@@ -1,7 +1,9 @@
 # Algoritmo de Euclides - Cálculo Numérico
 
-Este programa en **Python** calcula el **Máximo Común Divisor (MCD)** y el **Mínimo Común Múltiplo (MCM)** de dos números enteros utilizando el Algoritmo de Euclides.
+Rpositorio de tareas para la asignatura cálculo númerico de algoritmos de cálculos aplicados a la programación. 
 
+Profesor: Cesar Ortiz
+Universidad Los Lagos
 ---
 
 ## Cómo Ejecutar
@@ -10,3 +12,7 @@ Este programa en **Python** calcula el **Máximo Común Divisor (MCD)** y el **M
 2. Ejecuta el archivo:
    ```bash
    python algoritmo.py
+   python fibonacci.py
+   python generar_primos.py
+   python primos_mersene.py
+   
