@@ -1,8 +1,8 @@
-# Algoritmo de Euclides - Cálculo Numérico
+# Cálculo Numérico
 
 Rpositorio de tareas para la asignatura cálculo númerico de algoritmos de cálculos aplicados a la programación. 
 
-Profesor: Cesar Ortiz
+Profesor: Cesar Ortiz,
 Universidad Los Lagos
 ---
 
