@@ -19,3 +19,11 @@ Ep= Er * 100
 print(f"El error porcentual para {n} términos es: {Ep}%")
 print(f"El valor de la sumatoria es: {serie_infinita_1000[-1]} y el valor de la constante es: {constante}")
 print(f"El error absoluto es: {Ea} y el error relativo es: {Er}")
+
+## calcular lo mismo pero a la inversa 
+serie_infinita_inversa = []
+
+for a in range(n, 0,-1):
+    sumatoria_inversa = sum(1 / (j ** 4) for j in range(1, a + 1))
+    serie_infinita_inversa.append(sumatoria_inversa) 
+print("La sumatoria inversa de 1/i^4 hasta", n, "términos es:", serie_infinita_inversa[0])
