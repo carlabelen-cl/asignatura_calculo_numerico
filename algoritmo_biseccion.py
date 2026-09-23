@@ -38,6 +38,9 @@ if f(a) * f(b) < 0:
     for i in range(10):
         c = (a + b) / 2
         print(f"Iteración {i+1}: a = {a}, b = {b}, c = {c}, f(c) = {f(c)}")
+        ## formula para calcular error a-b/a+b
+        error = abs((a - b) / (a + b)) if (a + b) != 0 else float('inf')
+        print(f"Error: {error}")
         if f(c) == 0:
             print(f"Se encontró una raíz exacta: {c}")
             break
@@ -45,4 +48,5 @@ if f(a) * f(b) < 0:
             b = c
         else:
             a = c
-        
+
+## formula para calcular error a-b/a+b 
